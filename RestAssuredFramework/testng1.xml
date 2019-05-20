@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Restassuredsuite">
+<test name="restassuredtests">
+<classes>
+
+<class name="com.testCases.TC001_Get_All_employees"/>
+<class name="com.testCases.TC002_Get_Single_Employee_Record"/>
+<class name="com.testCases.TC003_Post_Employee_Record"/>
+<class name="com.testCases.TC004_Update_Employee_Record"/>
+<class name="com.testCases.TC005_Delete_Employee_Record"/>
+
+</classes>
+</test>
+</suite>

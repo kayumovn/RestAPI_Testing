@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Restassuredsuite]">
+  <test thread-count="5" name="restassuredtests(failed)">
+    <classes>
+      <class name="com.testCases.TC004_Update_Employee_Record">
+        <methods>
+          <include name="checkStatusLine"/>
+          <include name="createEmployee"/>
+          <include name="checkStatusCode"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="checkContentType"/>
+          <include name="checkServerType"/>
+          <include name="checkContentLength"/>
+          <include name="checkResponseBody"/>
+        </methods>
+      </class> <!-- com.testCases.TC004_Update_Employee_Record -->
+      <class name="com.testCases.TC003_Post_Employee_Record">
+        <methods>
+          <include name="tearDown"/>
+          <include name="checkContentType"/>
+          <include name="checkServerType"/>
+          <include name="checkStatusLine"/>
+          <include name="setup"/>
+          <include name="createEmployee"/>
+          <include name="checkStatusCode"/>
+          <include name="checkResponseBody"/>
+          <include name="checkContentLength"/>
+        </methods>
+      </class> <!-- com.testCases.TC003_Post_Employee_Record -->
+      <class name="com.testCases.TC002_Get_Single_Employee_Record">
+        <methods>
+          <include name="checkContentLength"/>
+          <include name="tearDown"/>
+          <include name="getResponseBody"/>
+          <include name="checkStatusLine"/>
+          <include name="setup"/>
+          <include name="checkContentType"/>
+          <include name="getEmployeeData"/>
+          <include name="checkResponseTime"/>
+          <include name="checkStatusCode"/>
+          <include name="checkServerType"/>
+        </methods>
+      </class> <!-- com.testCases.TC002_Get_Single_Employee_Record -->
+      <class name="com.testCases.TC005_Delete_Employee_Record">
+        <methods>
+          <include name="checkResponseBody"/>
+          <include name="setup"/>
+          <include name="checkStatusLine"/>
+          <include name="checkStatusCode"/>
+          <include name="checkContentType"/>
+          <include name="checkContentLength"/>
+          <include name="createEmployee"/>
+          <include name="tearDown"/>
+          <include name="checkServerType"/>
+        </methods>
+      </class> <!-- com.testCases.TC005_Delete_Employee_Record -->
+    </classes>
+  </test> <!-- restassuredtests(failed) -->
+</suite> <!-- Failed suite [Restassuredsuite] -->
